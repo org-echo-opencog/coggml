@@ -196,6 +196,7 @@ add_library(ggml-base
             ../include/ggml-backend.h
             ../include/ggml-cpp.h
             ../include/ggml-opt.h
+            ../include/ggml-opencog.h
             ../include/gguf.h
             ggml.c
             ggml.cpp
@@ -206,6 +207,7 @@ add_library(ggml-base
             ggml-threading.h
             ggml-quants.c
             ggml-quants.h
+            ggml-opencog.cpp
             gguf.cpp)
 
 target_include_directories(ggml-base PRIVATE .)
